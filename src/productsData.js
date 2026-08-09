@@ -1,243 +1,240 @@
 export const PRODUCTS = [
-  { 
-    brand: 'RK ACTIVE', 
-    specification: 'Humic acid and Fulvic acid 19.5 % (Liquid)', 
-    category: 'Mixture of Seaweed extract',
-    crops: ['Chilli', 'Potato', 'Rice', 'Cotton', 'Soybean', 'Cumin', 'Onion'], 
-    dosage: [
-      'One foliar application at 1250ml/ha',
-      'Suitable for Foliar Application on Commercial, Horticulture & General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK ACTIVE',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Humic acid and Fulvic acid 19.5 % (Liquid)',
+    category: 'Humic and Fulvic Acid and their derivatives',
     composition: [
-      'Humic acid (Source:Leonardite) percent.by weight, minimum 18', 
-      'Fulvic acid percent.by weight, minimum 1.5',
-      'Alkyl phenolethoxylate percent.by weight,minimum 10',
-      'Fatty alcohol ethoxylate percent.by weight, minimum 10',
-      'Water percent.by weight,minimum 60.5',
-      'Total (per cent.) 100'
-    ] 
-  },
-  { 
-    brand: 'RK BOOSTER', 
-    specification: 'Proline 1% (Liquid)', 
-    category: 'BIO-STIMULANT',
-    crops: ['Capsicum'], 
+      '(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 18',
+      '(ii) Fulvic acid per cent. by weight, minimum 1.5',
+      '(iii) Alkyl phenol ethoxylate per cent. by weight, minimum 10',
+      '(iv) Fatty alcohol ethoxylate per cent. by weight, minimum 10',
+      '(v) Water per cent. by weight, minimum 60.5',
+      '(vi) Total (per cent.) 100'
+    ],
+    crops: ['Chilli', 'Potato', 'Rice', 'Cotton', 'Soybean', 'Cumin', 'Onion'],
     dosage: [
-      'Three foliar applications at 500ml/ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
-    composition: [
-      'Prolinepercent.byweight,minimum 1', 
-      'Waterpercent.byweight 99',
-      'Total (per cent) 100'
-    ] 
+      '(i) Chilli One foliar application at 1250 ml/ha',
+      '(ii) Potato One foliar application at 1250 ml/ha',
+      '(iii) Rice One foliar application at 1250 ml/ha',
+      '(iv) Cotton One soil application at 1250 ml/ha',
+      '(v) Cumin One foliar application at 1250 ml/ha',
+      '(vi) Onion One foliar application at 1250 ml/ha',
+      '(vii) Soybean Two foliar applications at 1250 ml/ha'
+    ]
   },
-  { 
-    brand: 'Chilli Power', 
-    specification: 'Adhatoda vasica extract 2% (Liquid)', 
-    category: 'BIO-STIMULANT',
-    crops: ['Chilli', 'Tomato'], 
+  {
+    brand: 'RK BOOSTER',
+    gazette: '13th August, 2025 S.O. 3741(E).',
+    specification: 'Proline 1% (Liquid)',
+    category: 'Protein hydrolysates and Amino Acids',
+    composition: [
+      '(i) Proline per cent. by weight, minimum 1',
+      '(ii) Water per cent. by weight 99',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Capsicum'],
     dosage: [
-      'Three foliar sprays at 2ltr./ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
-    composition: [
-      'Adhatodavasica(leaf)extract percent. by weight,minimum 2', 
-      'N propanolas solvent percent. weight by volume,maximum 20',
-      'Vegetable(soybean)oil percent. weight by volume,maximum 78',
-      'Total(per cent.) 100'
-    ] 
+      'Three foliar applications at 500 ml/ha'
+    ]
   },
-  { 
-    brand: 'BOOSTER', 
-    specification: 'Humic acid and Fulvic acid 19.5 % (Liquid)', 
+  {
+    brand: 'Chilli Power',
+    gazette: '13th August, 2025 S.O. 3741(E).',
+    specification: 'Adhatoda vasica extract 2% (Liquid)',
+    category: 'Botanical Extract',
+    composition: [
+      '(i) Plant extract (Adhatoda vasica) per cent. by weight, minimum 2.0',
+      '(ii) Adjuvant (Polyoxyethylene sorbitan trioleate) per cent. by weight, minimum 50',
+      '(iii) Vegetable (soybean) oil per cent. by weight 48.0',
+      '(iv) Total (per cent.) 100'
+    ],
+    crops: ['Chilli', 'Tomato'],
+    dosage: [
+      'Chilli Three foliar applications at 1000 ml/ha',
+      'Tomato Three foliar applications at 1250 ml/ha'
+    ]
+  },
+  {
+    brand: 'BOOSTER',
+    specification: 'Humic acid and Fulvic acid 19.5 % (Liquid)',
     category: 'Bio-Stimulant : Seaweed Extract, Humic Acid, Amino Acid, Hydrolyzed Protein, Organic Matter',
-    crops: ['Cotton'], 
+    crops: ['Cotton'],
     dosage: [
       'Two foliar applications at 2 ltr./ha.',
       'Suitable for Drenching Application on Commercial, Horticulture & General Crops as per Recommended Dosage 5 ltr/acre'
-    ], 
-    gazette: '', 
+    ],
+    gazette: '',
     composition: [
-      'Sargassumwightiiextract percent.by weight,minimum 20', 
+      'Sargassumwightiiextract percent.by weight,minimum 20',
       'Glycine percent.by weight,minimum 10',
       'Potassium fulvic humate percent.by weight,minimum 10 (Source: Leonardite)',
       'VitaminC percent.by weight,minimum 2',
       'Waterpercent.byweight QS',
       'Total(per cent.) 100'
-    ] 
+    ]
   },
-  { 
-    brand: 'RK MAX', 
-    specification: 'CYTOKININ (ZEA MAYS KERNEL) 0.2% (LIQUID)', 
-    category: 'BIO STIMULANT',
-    crops: ['Capsicum'], 
-    dosage: [
-      'Three foliar applications at 750ml/ha'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK MAX',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Cytokinin (Zea mays kernel) 0.2% (Liquid)',
+    category: 'Botanical Extract',
     composition: [
-      'Cytokinin (Source:Zeamayskernel) percent. weight by volume, minimum 0.02', 
-      'Potassium sorbate percent. weight by volume, minimum 0.001',
-      'Demineralized aqua percent. by weight QS',
-      'Total (per cent) 100'
-    ] 
+      '(i) Cytokinin (Source: Zea mays kernel) per cent. weight by volume, minimum 0.02',
+      '(ii) Potassium sorbate per cent. weight by volume, minimum 0.001',
+      '(iii) Demineralized aqua per cent. by weight QS',
+      '(iv) Total (per cent.) 100'
+    ],
+    crops: ['Capsicum'],
+    dosage: [
+      'Three foliar applications at 750 ml/ha'
+    ]
   },
-  { 
-    brand: 'RK Plus', 
-    specification: 'Mixture of Seaweed extract; Humic and Fulvic acid, Amino acids and Vitamins (Liquid)', 
-    category: 'BIO STIMULANT',
-    crops: ['Cotton'], 
-    dosage: [
-      'Two foliar applications at 2ltr./ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK Plus',
+    gazette: '26th May, 2025 S.O. 2346E)',
+    specification: 'Mixture of Seaweed extract; Humic and Fulvic acid, Amino acids and Vitamins (Liquid)',
+    category: 'Mixed formulations of Biostimulants',
     composition: [
-      'Sargassumwightiiextract percent. by weight,minimum 20', 
-      'Glycine percent.by weight,minimum 10',
-      'Potassium fulvic humate percent. by weight, minimum (Source: Leonardite) 10',
-      'VitaminC percent.by weight,minimum 2',
-      'Waterpercent.byweight QS',
-      'Total (percent) 100'
-    ] 
+      '(i) Sargassum wightii extract per cent. by weight, minimum 20',
+      '(ii) Glycine per cent. by weight, minimum 10',
+      '(iii) Potassium fulvic humate per cent. by weight, minimum (Source: Leonardite) 10',
+      '(iv) Vitamin C per cent. by weight, minimum 2.0',
+      '(v) Water per cent. by weight QS',
+      '(vi) Total (per cent.) 100'
+    ],
+    crops: ['Cotton'],
+    dosage: [
+      'Two foliar applications at 2 l/ha.'
+    ]
   },
-  { 
-    brand: 'RK POWER', 
-    specification: 'Phenolic compounds 3% (Liquid)', 
-    category: 'BIO-STIMULANT',
-    crops: ['Maize'], 
-    dosage: [
-      'Three foliar applications at 750ml/ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK POWER',
+    gazette: '13th August, 2025 S.O. 3741(E).',
+    specification: 'Phenolic compounds 3% (Liquid)',
+    category: 'Antioxidant',
     composition: [
-      'Phenolic compound percent, weight by volume, minimum 3', 
-      'Water percent.weight by volume 97',
-      'Total (per cent.) 100'
-    ] 
+      '(i) Phenolic compound per cent. weight by volume, minimum 3',
+      '(ii) Water per cent. weight by volume 97',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Maize'],
+    dosage: [
+      'Three foliar applications at 750 ml/ha'
+    ]
   },
-  { 
-    brand: 'RK RAKSH', 
-    specification: 'Brassica juncea seed extract - 0.2% (Liquid)', 
-    category: 'BIO STIMULANT',
-    crops: ['Cucumber & All Crops'], 
-    dosage: [
-      'Three foliar applications at 750 ml/ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK RAKSH',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Brassica juncea seed extract– 0.2% (Liquid)',
+    category: 'Botanical Extract',
     composition: [
-      'i) Brassica juncea seed extract percent by weight, minimum 0.2', 
-      'ii) Isopropyl alcohol percent by volume 50',
-      'iii) Water percent by weight 49.98',
-      'iv) Total (per cent.) 100'
-    ] 
+      '(i) Brassica juncea seed extract per cent. by weight, minimum 0.2',
+      '(ii) Iso propyl alcohol per cent. by volume 50',
+      '(iii) Water per cent. by weight 49.98',
+      '(iv) Total (per cent.) 100'
+    ],
+    crops: ['Cucumber'],
+    dosage: [
+      'Three foliar applications at 750 ml/ha'
+    ]
   },
-  { 
-    brand: 'RK 60g', 
-    specification: 'Phenolic compounds 3% (Liquid)', 
-    category: 'BIO STIMULANT',
-    crops: ['Maize'], 
-    dosage: [
-      'Three foliar applications at 750ml/ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK 60g',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Phenolic compounds 3% (Liquid)',
+    category: 'Antioxidant',
     composition: [
-      'Phenolic compound percent, weight by volume, minimum 3', 
-      'Water percent.weight by volume 97',
-      'Total (per cent.) 100'
-    ] 
+      '(i) Phenolic compound per cent. weight by volume, minimum 3',
+      '(ii) Water per cent. weight by volume 97',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Maize'],
+    dosage: [
+      'Three foliar applications at 750 ml/ha'
+    ]
   },
-  { 
-    brand: 'SHAKTHI SILK g', 
-    specification: 'Proline 1% (Liquid)', 
-    category: 'BIO-STIMULANT Protein Hydrolysates & Amino Acids (Proline 1%) - Liquid',
-    crops: ['Capsicum'], 
-    dosage: [
-      'Three foliar applications at 500ml/ha',
-      'Suitable for Foliar Application on Mulberry, Commercial Horticulture & General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'SHAKTHI SILK g',
+    gazette: '13th August, 2025 S.O. 3741(E).',
+    specification: 'Proline 1% (Liquid)',
+    category: 'Seaweed Extract',
     composition: [
-      'i) Prolinepercent.byweight,minimum 1', 
-      'ii) Waterpercent.byweight 99',
-      'iii) Total (per cent) 100'
-    ] 
+      '(i) Proline per cent. by weight, minimum 1',
+      '(ii) Water per cent. by weight 99',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Capsicum'],
+    dosage: [
+      'Three foliar applications at 500 ml/ha'
+    ]
   },
-  { 
-    brand: 'RK SHINE', 
-    specification: 'Ascophyllum nodosum 5% (Powder)', 
-    category: 'Bio-Stimulant',
-    crops: ['Chilli'], 
-    dosage: [
-      'Three foliar applications at 1000g/ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 100g/200 ltr.water'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK SHINE',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Ascophyllum nodosum 5%',
+    category: 'Seaweed Extract',
     composition: [
-      'Seaweed (Ascophyllumnodosum) extract percent by weight, minimum 5', 
-      'Dextrin percent by weight,minimum 95',
-      'Total (per cent.) 100'
-    ] 
+      '(i) Seaweed (Ascophyllum nodosum) extract percent by weight, minimum 5',
+      '(ii) Dextrin percent by weight, minimum 95',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Chilli'],
+    dosage: [
+      'Three foliar applications at 1000 g/ha'
+    ]
   },
-  { 
-    brand: 'SURYA', 
-    specification: 'Adhatoda vasica extract 2% (Liquid)', 
-    category: 'BIO STIMULANT Botanical Extract of Adhatoda vasica extract 2% (Liquid)',
-    crops: ['Chilli', 'Tomato'], 
-    dosage: [
-      'Three foliar sprays at 2ltr./ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'SURYA',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Adhatoda vasica extract 2%',
+    category: 'Botanical Extract',
     composition: [
-      'Adhatodavasica(leaf)extract percent. by weight,minimum 2', 
-      'N propanolas solvent percent. weight by volume,maximum 20',
-      'Vegetable(soybean)oil percent. weight by volume,maximum 78',
-      'Total(per cent.) 100'
-    ] 
+      '(i) Plant extract (Adhatoda vasica) per cent. by weight, minimum 2.0',
+      '(ii) Adjuvant (Polyoxyethylene sorbitan trioleate) per cent. by weight, minimum 50',
+      '(iii) Vegetable (soybean) oil per cent. by weight 48.0',
+      '(iv) Total (per cent.) 100'
+    ],
+    crops: ['Chilli', 'Tomato'],
+    dosage: [
+      '(i) Chilli Three foliar applications at 1000 ml/ha',
+      '(ii) Tomato Three foliar applications at 1250 ml/ha'
+    ]
   },
-  { 
-    brand: 'Tomato Pro', 
-    specification: 'Adhatoda vasica extract 2% (Liquid)', 
-    category: 'BIO-STIMULANT',
-    crops: ['Chilli', 'Tomato'], 
-    dosage: [
-      'Three foliar sprays at 2ltr./ha',
-      'Suitable for Foliar Application on Commercial, Horticulture and General Crops as per Recommended Dosage 2.5ml/ltr.'
-    ], 
-    gazette: '', 
+  {
+    brand: 'Tomato Pro',
+    gazette: '13th August, 2025 S.O. 3741(E)',
+    specification: 'Adhatoda vasica extract 2%',
+    category: 'Botanical Extract',
     composition: [
-      'Adhatodavasica(leaf)extract percent. by weight,minimum 2', 
-      'N propanolas solvent percent. weight by volume,maximum 20',
-      'Vegetable(soybean)oil percent. weight by volume,maximum 78',
-      'Total(per cent.) 100'
-    ] 
+      '(i) Plant extract (Adhatoda vasica) per cent. by weight, minimum 2.0',
+      '(ii) Adjuvant (Polyoxyethylene sorbitan trioleate) per cent. by weight, minimum 50',
+      '(iii) Vegetable (soybean) oil per cent. by weight 48.0',
+      '(iv) Total (per cent.) 100'
+    ],
+    crops: ['Chilli', 'Tomato'],
+    dosage: [
+      '(i) Chilli Three foliar applications at 1000 ml/ha',
+      '(ii) Tomato Three foliar applications at 1250 ml/ha'
+    ]
   },
-  { 
-    brand: 'RK Udbhav', 
-    specification: 'Mixture of Humic Acid, Amino Acid Vitamins & Bio-Chemicals (Powder)', 
-    category: 'BIO-STIMULANT Mixed formulations of Bio-stimulants, Humic Acid, Amino Acid, Vitamins and Bio-chemicals',
-    crops: ['Capsicum & All Crops'], 
-    dosage: [
-      'Three soil applications at 18 kg/ha',
-      'Suitable for Drenching Application on Commercial, Horticulture & General Crops as per Recommended Dosage 2.5ml/ltr.',
-      'Foliar 100 g per 200 litres of water per acre'
-    ], 
-    gazette: '', 
+  {
+    brand: 'RK Udbhav',
+    gazette: '16th February, 2026 S.O. 876(E)',
+    specification: 'Mixture of Humic Acid, Amino acid, Vitamin and Biochemical (Powder)',
+    category: 'Mixed formulation of Biostimulants',
     composition: [
-      'i) Humic Acid 10% - 15%', 
-      'ii) Amino Acid 5% - 8%',
-      'iii) Vitamins & Trace Bio Chemical 1% - 2%',
-      'iv) Fillers / Carriers 75% - 84%',
-      'v) Total(per cent.) 100'
-    ] 
+      '(i) Potassium humate per cent. by weight, minimum 39',
+      '(ii) Amino acid per cent. by weight, minimum 10',
+      '(iii) Vitamins per cent. by weight, minimum 22',
+      '(iv) Sugar Alcohols (myo inositol) per cent. by weight, maximum 4',
+      '(v) Modified starch per cent. by weight, maximum 25',
+      '(vi) Total (per cent.) 100'
+    ],
+    crops: ['Okra'],
+    dosage: [
+      'Two soil applications at 250g/ha'
+    ]
   }
 ];
 
