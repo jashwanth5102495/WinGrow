@@ -1,100 +1,160 @@
 export const PRODUCTS = [
   {
-    brand: 'RK ACTIVE',
-    gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Humic acid and Fulvic acid 19.5 % (Liquid)',
-    category: 'Humic and Fulvic Acid and their derivatives',
+    brand: 'WIN BHOOMI SHAKTHI',
+    gazette: '16th February, 2026 S.O. 876(E)',
+    specification: 'Potassium Humate 49% (Powder)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
     composition: [
-      '(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 18',
-      '(ii) Fulvic acid per cent. by weight, minimum 1.5',
-      '(iii) Alkyl phenol ethoxylate per cent. by weight, minimum 10',
-      '(iv) Fatty alcohol ethoxylate per cent. by weight, minimum 10',
-      '(v) Water per cent. by weight, minimum 60.5',
-      '(vi) Total (per cent.) 100'
+      '(i) Potassium humate (Source: Leonardite) per cent. by weight, minimum 49',
+      '(ii) Silwet power (adjuvant) per cent. by weight, maximum 0.5',
+      '(iii) Carboxymethyl cellulose per cent. by weight, maximum 1.0',
+      '(iv) Maltodextrin powder per cent. by weight QS',
+      '(v) Total (per cent.) 100'
     ],
-    crops: ['Chilli', 'Potato', 'Rice', 'Cotton', 'Soybean', 'Cumin', 'Onion'],
+    crops: ['Paddy'],
     dosage: [
-      '(i) Chilli One foliar application at 1250 ml/ha',
-      '(ii) Potato One foliar application at 1250 ml/ha',
-      '(iii) Rice One foliar application at 1250 ml/ha',
-      '(iv) Cotton One soil application at 1250 ml/ha',
-      '(v) Cumin One foliar application at 1250 ml/ha',
-      '(vi) Onion One foliar application at 1250 ml/ha',
-      '(vii) Soybean Two foliar applications at 1250 ml/ha'
+      'One Soil application at 1 kg/ha'
     ]
   },
   {
-    brand: 'RK BOOSTER',
-    gazette: '13th August, 2025 S.O. 3741(E).',
-    specification: 'Proline 1% (Liquid)',
-    category: 'Protein hydrolysates and Amino Acids',
+    brand: 'WIN ZYME',
+    gazette: '16th February, 2026 S.O. 876(E)',
+    specification: 'Humates (12.5%) (Liquid)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
     composition: [
-      '(i) Proline per cent. by weight, minimum 1',
-      '(ii) Water per cent. by weight 99',
+      '(i) Humic acid (Source: American Leonardite) per cent. by weight, minimum 10.0',
+      '(ii) Fulvic acid (Source: American Leonardite) per cent. by weight, minimum 2.5',
+      '(iii) Tetrapotassium pyrophosphate per cent. by weight, minimum 0.9',
+      '(iv) Potassium hydroxide 50% solution per cent. by weight, minimum 10.0',
+      '(v) Alcoxylated fatty acid ester on vegetable base per cent. by weight, minimum 0.7',
+      '(vi) Water per cent. by weight QS',
+      '(vii) Total (per cent.) 100'
+    ],
+    crops: ['Green gram'],
+    dosage: [
+      'Two soil applications at 5.0 l/ha'
+    ]
+  },
+  {
+    brand: 'WIN HAP GRANULES',
+    gazette: '16th February, 2026 S.O. 876(E)',
+    specification: 'Humic Acid 51 % (Granular)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
+    composition: [
+      '(i) Humic acid (Source: American Leonardite) per cent. by weight, minimum 51.00',
+      '(ii) Fulvic acid per cent. by weight, minimum 10.00',
+      '(iii) Potassium as K2O per cent. by weight, minimum 16.00',
+      '(iv) Tetrapotassium pyrophosphate per cent. by weight, minimum 4.50',
+      '(v) Lignosulphonic acid per cent. by weight, minimum 14.22',
+      '(vi) Alcoxylated fatty acid ester on vegetable base per cent. by weight, minimum 0.36',
+      '(vii) Water per cent. by weight, maximum 3.92',
+      '(viii) Total (per cent.) 100'
+    ],
+    crops: ['Green gram'],
+    dosage: [
+      'Two soil applications at 1.5 kg/ha.'
+    ]
+  },
+  {
+    brand: 'WIN MOSS',
+    gazette: '26th May, 2025 S.O. 2346 (E).',
+    specification: 'Humic and Fulvic acid 25.05% (Liquid)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
+    composition: [
+      '(i) Humic and Fulvic acid per cent. by weight, minimum (Source: Leonardite) 25.05',
+      '(ii) Water per cent. by weight 74.95',
       '(iii) Total (per cent.) 100'
     ],
-    crops: ['Capsicum'],
+    crops: ['Tomato'],
     dosage: [
-      'Three foliar applications at 500 ml/ha'
+      'Five equal soil drench applications at 10 l/ha'
     ]
   },
   {
-    brand: 'Chilli Power',
-    gazette: '13th August, 2025 S.O. 3741(E).',
-    specification: 'Adhatoda vasica extract 2% (Liquid)',
-    category: 'Botanical Extract',
-    composition: [
-      '(i) Plant extract (Adhatoda vasica) per cent. by weight, minimum 2.0',
-      '(ii) Adjuvant (Polyoxyethylene sorbitan trioleate) per cent. by weight, minimum 50',
-      '(iii) Vegetable (soybean) oil per cent. by weight 48.0',
-      '(iv) Total (per cent.) 100'
-    ],
-    crops: ['Chilli', 'Tomato'],
-    dosage: [
-      'Chilli Three foliar applications at 1000 ml/ha',
-      'Tomato Three foliar applications at 1250 ml/ha'
-    ]
-  },
-  {
-    brand: 'BOOSTER',
-    specification: 'Humic acid and Fulvic acid 19.5 % (Liquid)',
-    category: 'Bio-Stimulant : Seaweed Extract, Humic Acid, Amino Acid, Hydrolyzed Protein, Organic Matter',
-    crops: ['Cotton'],
-    dosage: [
-      'Two foliar applications at 2 ltr./ha.',
-      'Suitable for Drenching Application on Commercial, Horticulture & General Crops as per Recommended Dosage 5 ltr/acre'
-    ],
-    gazette: '',
-    composition: [
-      'Sargassumwightiiextract percent.by weight,minimum 20',
-      'Glycine percent.by weight,minimum 10',
-      'Potassium fulvic humate percent.by weight,minimum 10 (Source: Leonardite)',
-      'VitaminC percent.by weight,minimum 2',
-      'Waterpercent.byweight QS',
-      'Total(per cent.) 100'
-    ]
-  },
-  {
-    brand: 'RK MAX',
+    brand: 'WIN HUMIC GRANULES',
     gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Cytokinin (Zea mays kernel) 0.2% (Liquid)',
-    category: 'Botanical Extract',
+    specification: 'Humic substances 1.5% (Granule)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
     composition: [
-      '(i) Cytokinin (Source: Zea mays kernel) per cent. weight by volume, minimum 0.02',
-      '(ii) Potassium sorbate per cent. weight by volume, minimum 0.001',
-      '(iii) Demineralized aqua per cent. by weight QS',
-      '(iv) Total (per cent.) 100'
+      '(i) Humic substances (Source: Renewable agri-biomass) per cent. by weight, minimum 1.5',
+      '(ii) Bentonite per cent. by weight, minimum 98.5',
+      '(iii) Total (per cent.) 100'
     ],
-    crops: ['Capsicum'],
+    crops: ['Paddy'],
     dosage: [
-      'Three foliar applications at 750 ml/ha'
+      'Two soil applications at 10 kg/ha'
     ]
   },
   {
-    brand: 'RK Plus',
-    gazette: '26th May, 2025 S.O. 2346E)',
+    brand: 'WINMITRA-K',
+    gazette: '13th August, 2025 S.O. 3741(E).',
+    specification: 'Humic acid- 1.2 % (granules)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
+    composition: [
+      '(i) Humic acid (Source: Leonardite) per cent. by weight, minimum 1.2',
+      '(ii) Bentonite per cent. by weight, maximum 98.8',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Soybean', 'potato', 'chilli', 'paddy'],
+    dosage: [
+      'Soybean: Two soil applications at 10 kg/ha',
+      'Potato : Two soil applications at 12.5 kg/ha',
+      'Paddy : Two soil applications at 10 kg/ha',
+      'Chilli : Two soil applications at 20 kg/ha'
+    ]
+  },
+  {
+    brand: 'WINMITRA GOLD',
+    gazette: '',
+    specification: 'Sargassum tenerrimum 2%( Granular)',
+    category: 'Seaweed Extract',
+    composition: [
+      '(i) Seaweed (Sargassum tenerrimum) extract per cent. by weight, minimum 2.0',
+      '(ii) Phytase as adjuvant per cent. by weight, maximum 1.0',
+      '(iii) Bentonite per cent. by weight, maximum 87',
+      '(iv) Moisture per cent. by weight, maximum 10',
+      '(v) Total (per cent.) 100'
+    ],
+    crops: ['Paddy'],
+    dosage: [
+      'One soil application at 12.5 kg/ha'
+    ]
+  },
+  {
+    brand: 'WIN CROP DON',
+    gazette: '',
+    specification: 'Kappaphycus alvarezii 24% (Liquid)',
+    category: 'Seaweed Extract',
+    composition: [
+      '(i) Total carbohydrate per cent. by weight, minimum 7.5',
+      '(ii) D-Galactose – 4-O- Sulphate per cent. by weight, minimum 6.0',
+      '(iii) pH (minimum) (1:2 aqueous solution) 3.0 – 5.0'
+    ],
+    crops: ['Cucumber'],
+    dosage: [
+      'One foliar application at 2 ml/l.'
+    ]
+  },
+  {
+    brand: 'WIN RAKSHA',
+    gazette: '',
+    specification: 'Sargassum tenerrimum 10% (Liquid)',
+    category: 'Seaweed Extract',
+    composition: [
+      '(i) Alginic Acid per cent. by weight, minimum 2.0',
+      '(ii) pH (1:2 aqueous solution) 8-10',
+      '(iii) Organic matter (dry mass basis) per cent. by weight,minimum  20'
+    ],
+    crops: ['Paddy'],
+    dosage: [
+      'One foliar application at 625 ml/ha.'
+    ]
+  },
+  {
+    brand: 'WIN HI-GROWTH',
+    gazette: '26th May, 2025 S.O. 2346 (E)',
     specification: 'Mixture of Seaweed extract; Humic and Fulvic acid, Amino acids and Vitamins (Liquid)',
-    category: 'Mixed formulations of Biostimulants',
+    category: 'Mixed Formulation',
     composition: [
       '(i) Sargassum wightii extract per cent. by weight, minimum 20',
       '(ii) Glycine per cent. by weight, minimum 10',
@@ -105,135 +165,204 @@ export const PRODUCTS = [
     ],
     crops: ['Cotton'],
     dosage: [
-      'Two foliar applications at 2 l/ha.'
+      'Two foliar applictaions at 2 l/ha'
     ]
   },
   {
-    brand: 'RK POWER',
-    gazette: '13th August, 2025 S.O. 3741(E).',
-    specification: 'Phenolic compounds 3% (Liquid)',
-    category: 'Antioxidant',
+    brand: 'WIN BLOOM',
+    gazette: '16th February, 2026 S.O. 876(E).',
+    specification: 'Mixture of humic substances and seaweed extract (Liquid )',
+    category: 'Mixed Formulation',
     composition: [
-      '(i) Phenolic compound per cent. weight by volume, minimum 3',
-      '(ii) Water per cent. weight by volume 97',
-      '(iii) Total (per cent.) 100'
+      '(i) Humic substances (Source: Brown coal) per cent. by weight, minimum 5',
+      '(ii) Seaweed (Ascophyllum nodosum) extract per cent. by weight, minimum 24',
+      '(iii) Alkaline reagents (anyone or combination of potassium hydroxide, sodium hydroxide, dipotassium hydrogen phosphate, potassium carbonate) per cent. by weight, maximum 5',
+      '(iv) Water per cent. by weight, maximum QS',
+      '(v) Total (per cent.) 100'
     ],
-    crops: ['Maize'],
+    crops: ['Soybean'],
     dosage: [
-      'Three foliar applications at 750 ml/ha'
+      'Three foliar applications at 750 m1/ha'
     ]
   },
   {
-    brand: 'RK RAKSH',
-    gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Brassica juncea seed extract– 0.2% (Liquid)',
-    category: 'Botanical Extract',
+    brand: 'WIN MIRACLE',
+    gazette: '',
+    specification: 'Mixture of Seaweed extract, Potassium Humate and Protein Hydrolysates (Liquid)',
+    category: 'Mixed Formulation',
     composition: [
-      '(i) Brassica juncea seed extract per cent. by weight, minimum 0.2',
-      '(ii) Iso propyl alcohol per cent. by volume 50',
-      '(iii) Water per cent. by weight 49.98',
-      '(iv) Total (per cent.) 100'
-    ],
-    crops: ['Cucumber'],
-    dosage: [
-      'Three foliar applications at 750 ml/ha'
-    ]
-  },
-  {
-    brand: 'RK 60g',
-    gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Phenolic compounds 3% (Liquid)',
-    category: 'Antioxidant',
-    composition: [
-      '(i) Phenolic compound per cent. weight by volume, minimum 3',
-      '(ii) Water per cent. weight by volume 97',
-      '(iii) Total (per cent.) 100'
-    ],
-    crops: ['Maize'],
-    dosage: [
-      'Three foliar applications at 750 ml/ha'
-    ]
-  },
-  {
-    brand: 'SHAKTHI SILK g',
-    gazette: '13th August, 2025 S.O. 3741(E).',
-    specification: 'Proline 1% (Liquid)',
-    category: 'Seaweed Extract',
-    composition: [
-      '(i) Proline per cent. by weight, minimum 1',
-      '(ii) Water per cent. by weight 99',
-      '(iii) Total (per cent.) 100'
-    ],
-    crops: ['Capsicum'],
-    dosage: [
-      'Three foliar applications at 500 ml/ha'
-    ]
-  },
-  {
-    brand: 'RK SHINE',
-    gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Ascophyllum nodosum 5%',
-    category: 'Seaweed Extract',
-    composition: [
-      '(i) Seaweed (Ascophyllum nodosum) extract percent by weight, minimum 5',
-      '(ii) Dextrin percent by weight, minimum 95',
-      '(iii) Total (per cent.) 100'
+      '(i) Seaweed (Sargassum tennerimum) extract per cent. by weight, minimum 10',
+      '(ii) Potassium humate per cent. by weight, minimum (Source: Leonardite) 5',
+      '(iii) Protein hydrolysates derived through enzymatic (Protease) hydrolysis of Glycine max grain flour per cent. by weight, minimum 15',
+      '(iv) Xanthum gum per cent. by weight, minimum 0.05',
+      '(v) Water per cent. by weight, maximum QS',
+      '(vi) Total (per cent.) 100'
     ],
     crops: ['Chilli'],
     dosage: [
-      'Three foliar applications at 1000 g/ha'
+      'Two foliar applications at 1000 ml/ha'
     ]
   },
   {
-    brand: 'SURYA',
-    gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Adhatoda vasica extract 2%',
-    category: 'Botanical Extract',
+    brand: 'WIN AMINO-PLUS',
+    gazette: '26th May, 2025 S.O. 2346 (E).',
+    specification: 'Protein hydrolysate 25% (Plant Source) (Liquid)',
+    category: 'Protein Hydrolysates and Amino Acids',
     composition: [
-      '(i) Plant extract (Adhatoda vasica) per cent. by weight, minimum 2.0',
-      '(ii) Adjuvant (Polyoxyethylene sorbitan trioleate) per cent. by weight, minimum 50',
-      '(iii) Vegetable (soybean) oil per cent. by weight 48.0',
+      '(i) Protein hydrolysates derived from Glycine max and Zea mays in ratio of 5.5: 4.5 through enzymatic (food grade Alcalase) hydrolysis per cent. by weight, minimum 25',
+      '(ii) Water per cent. by weight QS',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Green gram'],
+    dosage: [
+      'Two foliar applications at 1.25 l/ha'
+    ]
+  },
+  {
+    brand: 'WIN VEERA',
+    gazette: '26th May, 2025 S.O. 2346 (E)',
+    specification: 'Bacterial biomass hydrolysate (Amino acids 2%)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    composition: [
+      '(i) Amino acids derived from enzymatic (Alkaline Protease) hydrolysis of bacterial biomass (Methylococcus capsulatus) per cent. by weight, minimum 2',
+      '(ii) Water per cent. by weight QS',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Grape', 'Chilli', 'Soyabean', 'Cotton'],
+    dosage: [
+      'Grape : Four foliar sprays at 1.25 l/ha to 2.0 l/ha depending on canopy size',
+      'Chilli : Three foliar applications at 3.75 l/ha',
+      'Soyabean : Three foliar applications at 2.5 l/ha',
+      'Cotton : Three foliar applications at 2.5 l/ha'
+    ]
+  },
+  {
+    brand: 'WIN FLOWER',
+    gazette: '',
+    specification: 'Bacterial biomass hydrolysate (Amino acids 2%) (Liquid)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    composition: [
+      '(i) Amino acids derived from enzymatic (Alkaline Protease) hydrolysis of bacterial biomass (Methylococcus capsulatus) per cent. by weight, minimum 2',
+      '(ii) Water per cent. by weight QS',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Grape', 'Chilli', 'Soyabean', 'Cotton'],
+    dosage: [
+      'Grape : Four foliar sprays at 1.25 l/ha to 2.0 l/ha depending on canopy size',
+      'Chilli : Three foliar applications at 3.75 l/ha',
+      'Soyabean : Three foliar applications at 2.5 l/ha',
+      'Cotton : Three foliar applications at 2.5 l/ha'
+    ]
+  },
+  {
+    brand: 'WIN SUPER PRO',
+    gazette: '26th May, 2025 S.O. 2346b (E)',
+    specification: 'Protein hydrolysate (Amino acids 10%) (Plant Source)(Liquid)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    composition: [
+      '(i) Amino acids derived from Maize seeds / grains (starch removed gluten through acid hydrolysis) percent. weight by volume, minimum 10',
+      '(ii) Polysorbate 80 per cent. weight by volume, minimum 2',
+      '(iii) Sulphuric acid per cent. weight by volume, minimum 3',
+      '(iv) Water per cent. by weight QS',
+      '(v) Total (per cent.) 100'
+    ],
+    crops: ['Chilli'],
+    dosage: [
+      'Two foliar applications at 750 ml/ha'
+    ]
+  },
+  {
+    brand: 'WIN FRUIT',
+    gazette: '26th May, 2025 S.O. 2346b (E)',
+    specification: 'Protein hydrolysate (Amino acids 10%) (Plant Source)(Liquid)',
+    category: 'Protein Hydrolysates and Amino Acids',
+    composition: [
+      '(i) Amino acids derived from Maize seeds / grains (starch removed gluten through acid hydrolysis) percent. weight by volume, minimum 10',
+      '(ii) Polysorbate 80 per cent. weight by volume, minimum 2',
+      '(iii) Sulphuric acid per cent. weight by volume, minimum 3',
+      '(iv) Water per cent. by weight QS',
+      '(v) Total (per cent.) 100'
+    ],
+    crops: ['Chilli'],
+    dosage: [
+      'Two foliar applications at 750 ml/ha'
+    ]
+  },
+  {
+    brand: 'WIN HUMIC',
+    gazette: '16th February, 2026 S.O. 876(E).',
+    specification: 'Humic substances 6% (Liquid)',
+    category: 'Humic Acid and Fulvic Acid  and their Derivatives',
+    composition: [
+      '(i) Humic substances (source: renewable agri-biomass) per cent. by weight, minimum 6.0',
+      '(ii) Soluble energizers (co-extracted substances including carbohydrates, peptides and trace amount of nutrients) per cent. by weight, minimum 4.0',
+      '(iii) Water per cent. by weight, maximum 90',
       '(iv) Total (per cent.) 100'
     ],
-    crops: ['Chilli', 'Tomato'],
+    crops: ['Soybean'],
     dosage: [
-      '(i) Chilli Three foliar applications at 1000 ml/ha',
-      '(ii) Tomato Three foliar applications at 1250 ml/ha'
+      'Two foliar applications at 1250 ml/ha'
     ]
   },
   {
-    brand: 'Tomato Pro',
-    gazette: '13th August, 2025 S.O. 3741(E)',
-    specification: 'Adhatoda vasica extract 2%',
-    category: 'Botanical Extract',
+    brand: 'WIN EVERGREEN',
+    gazette: '16th February, 2026 S.O. 876(E).',
+    specification: 'Ascophyllum nodosum 15% (Liquid)',
+    category: 'Seaweed Extract',
     composition: [
-      '(i) Plant extract (Adhatoda vasica) per cent. by weight, minimum 2.0',
-      '(ii) Adjuvant (Polyoxyethylene sorbitan trioleate) per cent. by weight, minimum 50',
-      '(iii) Vegetable (soybean) oil per cent. by weight 48.0',
-      '(iv) Total (per cent.) 100'
+      '(i) Seaweed (Ascophyllum nodosum) extract per cent. by weight, minimum 15',
+      '(ii) Potassium sorbate per cent. by weight, minimum 0.28',
+      '(iii) Citric acid per cent. by weight, minimum 1.91',
+      '(iv) Water per cent. by weight, maximum 82.81',
+      '(v) Total (per cent.) 100'
     ],
-    crops: ['Chilli', 'Tomato'],
+    crops: ['Green gram'],
     dosage: [
-      '(i) Chilli Three foliar applications at 1000 ml/ha',
-      '(ii) Tomato Three foliar applications at 1250 ml/ha'
+      'Two foliar applications at 1500 ml/ha'
     ]
   },
   {
-    brand: 'RK Udbhav',
-    gazette: '16th February, 2026 S.O. 876(E)',
-    specification: 'Mixture of Humic Acid, Amino acid, Vitamin and Biochemical (Powder)',
-    category: 'Mixed formulation of Biostimulants',
+    brand: 'WIN YIELD POWER',
+    gazette: '26th May, 2025 S.O. 2346 (E)',
+    specification: 'Mixture of Humic acid and Seaweed extract (Powder)',
+    category: 'Mixed Formulation',
     composition: [
-      '(i) Potassium humate per cent. by weight, minimum 39',
-      '(ii) Amino acid per cent. by weight, minimum 10',
-      '(iii) Vitamins per cent. by weight, minimum 22',
-      '(iv) Sugar Alcohols (myo inositol) per cent. by weight, maximum 4',
-      '(v) Modified starch per cent. by weight, maximum 25',
-      '(vi) Total (per cent.) 100'
+      '(i) Humic acid powder as potassium humate (Source: Leonardite) per cent. by weight, minimum 80',
+      '(ii) Kappaphycus alvarezii and Sargassum swartzii in ratio of 1:1; extract water soluble powder per cent. by weight, minimum 20',
+      '(iii) Total (per cent.) 100'
     ],
-    crops: ['Okra'],
+    crops: ['Tomato'],
     dosage: [
-      'Two soil applications at 250g/ha'
+      'Three foliar applications at 1.25 kg/ha'
+    ]
+  },
+  {
+    brand: 'WIN PROTECT',
+    gazette: '',
+    specification: 'Microbial cell (Methylococcus):1*109 cfu/g (Powder)',
+    category: 'Live Microorganisms',
+    composition: [
+      '(i) Microbial cell (Methylococcus capsulatus) concentrate, cfu/g, minimum 1x109'
+    ],
+    crops: ['Paddy', 'Maize'],
+    dosage: [
+      'Paddy: Three applications (One seedling dip and two foilar applications) at 40 g/ha',
+      'Maize: Two foliar applications at 40 g/ha'
+    ]
+  },
+  {
+    brand: 'WIN PLANT CARE',
+    gazette: '26th May, 2025 S.O. 2346 (E)',
+    specification: '2-Bromo-(1H)-Indole-3 Carboxaldehyde 1ppm (Liquid)',
+    category: 'Biochemicals',
+    composition: [
+      '(i) 2- Bromo- (l H)- Indole- 3 Carboxaldehyde per cent. by weight, minimum 0.0001',
+      '(ii) Water per cent. by weight QS',
+      '(iii) Total (per cent.) 100'
+    ],
+    crops: ['Tomato'],
+    dosage: [
+      'Seed treatment at 1 ppm formulation'
     ]
   }
 ];

@@ -199,9 +199,9 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Mfg. & Mktd. By:</div>
-                <div className="text-white/90 text-sm sm:text-base font-semibold mt-1">GREENN BUILD</div>
-                <div className="text-white/90 text-xs sm:text-sm mt-0.5"># 1, 74/2, 6th Cross, Nagadevanahalli, Kengeri, Bengaluru - 560 060, KARNATAKA</div>
-                <div className="text-white/90 text-xs sm:text-sm mt-1">Email : greennbuild@gmail.com</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold mt-1">Winmitra Agri Tech</div>
+                <div className="text-white/90 text-xs sm:text-sm mt-0.5">No.68/10, Kammasandra Main Road,<br/>Dasanapura Hobli, Kadabagere<br/>Bengaluru, Bangalore Urban-562162, Karnataka</div>
+                <div className="text-white/90 text-xs sm:text-sm mt-1">Email: winmitraagritech@gmail.com</div>
               </div>
             </div>
           </StarBorder>
@@ -212,7 +212,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Customer Care</div>
-                <div className="text-white/90 text-sm sm:text-base">+91 7676 86 3232</div>
+                <div className="text-white/90 text-sm sm:text-base">+91 9380198901</div>
               </div>
             </div>
           </StarBorder>
