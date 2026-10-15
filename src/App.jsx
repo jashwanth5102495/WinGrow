@@ -22,7 +22,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    document.title = currentProduct.brand;
+    document.title = currentProduct.displayName || currentProduct.brand;
   }, [currentProduct]);
 
   useEffect(() => {
@@ -198,7 +198,9 @@ export default function App() {
                 <span className="text-lg">🏭</span>
               </div>
               <div className="flex-1">
-                <div className="text-[#d9c98f] text-sm">Mfg. & Mktd. By:</div>
+                <div className="text-[#d9c98f] text-sm">
+                  {currentProduct.isImported ? 'Imported And Marketed By:' : 'Mfg. & Mktd. By:'}
+                </div>
                 <div className="text-white/90 text-sm sm:text-base font-semibold mt-1">Winmitra Agri Tech</div>
                 <div className="text-white/90 text-xs sm:text-sm mt-0.5">No.68/10, Kammasandra Main Road,<br/>Dasanapura Hobli, Kadabagere<br/>Bengaluru, Bangalore Urban-562162, Karnataka</div>
                 <div className="text-white/90 text-xs sm:text-sm mt-1">Email: winmitraagritech@gmail.com</div>

@@ -42,7 +42,7 @@ async function generateQRPDFs() {
       // Add Title
       doc.fontSize(24)
          .font('Helvetica-Bold')
-         .text(`${product.brand}`, { align: 'center' });
+         .text(`${product.displayName || product.brand}`, { align: 'center' });
       
       doc.moveDown(1);
       

@@ -290,6 +290,8 @@ export const PRODUCTS = [
   },
   {
     brand: 'WIN HUMIC',
+    displayName: 'WIN HUMIC (I)',
+    isImported: true,
     gazette: '16th February, 2026 S.O. 876(E).',
     specification: 'Humic substances 6% (Liquid)',
     category: 'Humic Acid and Fulvic Acid  and their Derivatives',
@@ -306,6 +308,8 @@ export const PRODUCTS = [
   },
   {
     brand: 'WIN EVERGREEN',
+    displayName: 'WIN EVERGREEN (I)',
+    isImported: true,
     gazette: '16th February, 2026 S.O. 876(E).',
     specification: 'Ascophyllum nodosum 15% (Liquid)',
     category: 'Seaweed Extract',
@@ -323,6 +327,8 @@ export const PRODUCTS = [
   },
   {
     brand: 'WIN YIELD POWER',
+    displayName: 'WIN YIELD POWER (I)',
+    isImported: true,
     gazette: '26th May, 2025 S.O. 2346 (E)',
     specification: 'Mixture of Humic acid and Seaweed extract (Powder)',
     category: 'Mixed Formulation',
@@ -338,6 +344,8 @@ export const PRODUCTS = [
   },
   {
     brand: 'WIN PROTECT',
+    displayName: 'WIN PROTECT (I)',
+    isImported: true,
     gazette: '',
     specification: 'Microbial cell (Methylococcus):1*109 cfu/g (Powder)',
     category: 'Live Microorganisms',
@@ -346,12 +354,14 @@ export const PRODUCTS = [
     ],
     crops: ['Paddy', 'Maize'],
     dosage: [
-      'Paddy: Three applications (One seedling dip and two foilar applications) at 40 g/ha',
+      'Paddy: Three applications (One seedling dip and two foliar applications) at 40 g/ha',
       'Maize: Two foliar applications at 40 g/ha'
     ]
   },
   {
     brand: 'WIN PLANT CARE',
+    displayName: 'WIN PLANT CARE (I)',
+    isImported: true,
     gazette: '26th May, 2025 S.O. 2346 (E)',
     specification: '2-Bromo-(1H)-Indole-3 Carboxaldehyde 1ppm (Liquid)',
     category: 'Biochemicals',
@@ -368,11 +378,17 @@ export const PRODUCTS = [
 ];
 
 export const SLUG_TO_BRAND = PRODUCTS.reduce((acc, product) => {
-  const encoded = encodeURIComponent(product.brand);
-  const hyphenated = product.brand.replace(/ /g, '-');
-  acc[product.brand] = product.brand;
-  acc[hyphenated] = product.brand;
-  acc[encoded] = product.brand;
+  const names = [product.brand, product.displayName].filter(Boolean);
+  for (const name of names) {
+    const encoded = encodeURIComponent(name);
+    const hyphenated = name.replace(/ /g, '-');
+    acc[name] = product.brand;
+    acc[hyphenated] = product.brand;
+    acc[encoded] = product.brand;
+    acc[name.toUpperCase()] = product.brand;
+    acc[hyphenated.toUpperCase()] = product.brand;
+    acc[encoded.toUpperCase()] = product.brand;
+  }
   return acc;
 }, {});
 
@@ -386,15 +402,27 @@ export function findProductBySlug(slug) {
   if (SLUG_TO_BRAND[normalized]) return findProductByBrand(SLUG_TO_BRAND[normalized]);
   if (SLUG_TO_BRAND[decoded]) return findProductByBrand(SLUG_TO_BRAND[decoded]);
 
-  // Try matching against brand names directly
-  const found = PRODUCTS.find(p => 
-    p.brand.toUpperCase() === normalized || 
-    p.brand.toUpperCase().replace(/\s+/g, '') === normalized.replace(/\s+/g, '')
-  );
+  // Try matching against brand names directly or display names
+  const targetClean = normalized.replace(/[\s\-_()]/g, '');
+  const found = PRODUCTS.find(p => {
+    const brandNorm = p.brand.toUpperCase();
+    const displayNorm = (p.displayName || '').toUpperCase();
+    const brandClean = brandNorm.replace(/[\s\-_()]/g, '');
+    const displayClean = displayNorm.replace(/[\s\-_()]/g, '');
+
+    return brandNorm === normalized || 
+      displayNorm === normalized ||
+      brandClean === targetClean ||
+      (displayClean && displayClean === targetClean);
+  });
   
   return found || PRODUCTS[0];
 }
 
 export function findProductByBrand(brand) {
-  return PRODUCTS.find(p => p.brand.toUpperCase() === brand.toUpperCase()) || PRODUCTS[0];
+  const upper = brand.toUpperCase();
+  return PRODUCTS.find(p => 
+    p.brand.toUpperCase() === upper || 
+    (p.displayName && p.displayName.toUpperCase() === upper)
+  ) || PRODUCTS[0];
 }
